@@ -60,6 +60,16 @@
     ```
     [~]$ userdel bob
     ```
+    
+  - To Create a Sudo User 
+   ```
+    [~]$ usermod -aG sudo username
+    ```
+    
+   - To Switch to a Sudo User 
+   ```
+    [~]$ su - username
+    ```  
 
   - To add a group use **`groupadd`** command 
 
@@ -72,3 +82,4 @@
     ```
     [~]$ groupdel developer
     ``` 
+    

@@ -66,7 +66,8 @@
     [~]$ usermod -aG sudo username
     ```
     
-  - To Switch to a Sudo User 
+    
+ - To Switch to a Sudo User 
    ```
     [~]$ su - username
     ```  

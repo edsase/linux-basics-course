@@ -73,7 +73,12 @@
     ![auth](../../images//auth.PNG)
     
 
-  ### SSH Port Forwarding
+  #### SSH Local Port Forwarding
+   - Run a simple SSH command with port forwarding to forward a local port to a remote local connection. When you run an SSH port-forwarding command like -L 8111:127.0.0.1:8888, you are telling SSH to forward your local port 8111 to what the remote host thinks 127.0.0.1:8888 is. The remote host thinks 127.0.0.1 is itself.
+   ```
+   $ ssh -L 8111:127.0.0.1:8888 edsase@192.168.0.136
+   ```
+   - The above will allow whatever resource running on 192.168.0.136:8888 to be forwarded to localhost:8111
   
   #### SCP
 

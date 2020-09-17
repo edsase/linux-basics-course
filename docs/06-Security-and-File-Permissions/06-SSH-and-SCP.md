@@ -71,7 +71,10 @@
     ```
    
     ![auth](../../images//auth.PNG)
+    
 
+  ### SSH Port Forwarding
+  
   #### SCP
 
    - To copy a compresses file to a remote server

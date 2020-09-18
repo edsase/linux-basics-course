@@ -91,6 +91,14 @@ $ grep -A1 -B1 Chelsea premier-league-table.txt
  ```
 $ echo "this is to be cut" | cut -d" " -f2 # will return the second substring of the splitted text
  ```
+ - You can also return a range of fields together by using:
+ ```
+ grep " jane " ../data/list.txt | cut -d ' ' -f 1-3
+ ```
+ - To return a set of fields together:
+ ```
+ grep " jane " ../data/list.txt | cut -d ' ' -f 1,3
+ ```
    
 
 

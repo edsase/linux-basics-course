@@ -84,6 +84,13 @@ Finally, the **`-A`** and **`-B`** can be combined into one single search.
 $ grep -A1 -B1 Chelsea premier-league-table.txt
 ```
   ![grep2](../../images/grep2.PNG)
+  
+  
+ #### Splitting Text with Cut
+ - Cut program is similar to the string.split() method in Python. It works by taking a text a splitting it based on the delimiter given. The splitted text can be ruturned with the fetch option.
+ ```
+$ echo "this is to be cut" | cut -d" " -f2 # will return the second substring of the splitted text
+ ```
    
 
 
